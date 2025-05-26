@@ -12,7 +12,7 @@ export function addtocaart(productId){
   let matchingitem;
 
   cart.forEach((item)=>{
-    if(productId===item.productId){
+    if(productId===item.prodId){
       matchingitem = item;
     }
   });
@@ -36,5 +36,5 @@ export function removefromcart(prodId){
     }
   });
 
-  let cart = newcart;
+  cart = newcart;
 }
