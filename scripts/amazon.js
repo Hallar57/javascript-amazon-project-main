@@ -71,11 +71,11 @@ document.querySelectorAll('.js-add-to-cart').forEach((button)=>{
 
 
 function updatecartqtt(){
-let cartQuantity = 0;
+  let cartQuantity = 0;
 
-    cart.forEach((item)=>{
-      cartQuantity += item.quantity;
-    });
+  cart.forEach((item)=>{
+    cartQuantity += item.quantity;
+  });
 
-    document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
+  document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
 }
