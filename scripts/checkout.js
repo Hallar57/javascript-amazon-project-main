@@ -36,10 +36,10 @@ cart.forEach((cartitem)=>{
             <span>
               Quantity: <span class="quantity-label">${cartitem.quantity}</span>
             </span>
-            <span class="update-quantity-link link-primary js-delete-link" data-product-id=${matchingProd.id}>
+            <span class="update-quantity-link link-primary">
               Update
             </span>
-            <span class="delete-quantity-link link-primary">
+            <span class="delete-quantity-link link-primary js-delete-link" data-product-id=${matchingProd.id}>
               Delete
             </span>
           </div>
@@ -90,8 +90,7 @@ cart.forEach((cartitem)=>{
           </div>
         </div>
       </div>
-    <div>
-
+    </div>
    `
     });
 
