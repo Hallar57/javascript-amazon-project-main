@@ -1,1 +1,0 @@
-export const moeny = (price)=> (price/100).toFixed(2);
