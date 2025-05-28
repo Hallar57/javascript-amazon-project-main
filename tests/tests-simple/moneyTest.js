@@ -1,4 +1,4 @@
-import {formatCurrency} from '../scripts/utils/money.js'
+import {formatCurrency} from '../../scripts/utils/money.js'
 
 console.log('1')
 formatCurrency(29934) === '299.34' ? console.log('pass') : console.log('fail');
